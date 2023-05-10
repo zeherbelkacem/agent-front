@@ -1,0 +1,52 @@
+<div class="container mt-4">
+  <div>
+    <p>Hello Admin,</p>
+    <p>
+      View the status of your agents and the evolution of their latest alerts
+    </p>
+  </div>
+  <div class="row mt-5"><h4>Installed agents by their status</h4></div>
+  <div class="row mt-4 d-flex justify-content-between">
+    <div class="col-md">
+      <div class="card">
+        <div class="card-body">
+          <p class="title">Total agents</p>
+          <p class="agents total">{{totalAgents}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="card">
+        <div class="card-body">
+          <p class="title">Active agents</p>
+          <p class="agents active">{{activeAgents}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="card">
+        <div class="card-body">
+          <p class="title">Disconnected agents</p>
+          <p class="agents disconnected">{{disconnectedAgents}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="card">
+        <div class="card-body">
+          <p class="title">Pending agents</p>
+          <p class="agents pending">{{pendingAgents}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="card">
+        <div class="card-body">
+          <p class="title">Never Connected agents</p>
+          <p class="agents neverConnected">{{neverConnectedAgents}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

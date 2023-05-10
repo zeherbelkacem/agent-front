@@ -1,0 +1,43 @@
+.title {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 15px;
+}
+
+.card{
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.agents {
+  text-align: center;
+  font-size: 80%;
+  padding-bottom: 13px;
+  font-size: 2.2em;
+  color: rgb(0, 107, 180);
+}
+
+.total {
+  color: rgb(0, 107, 180);
+}
+.active {
+  color: rgb(0, 120, 113);
+}
+.disconnected {
+  color: rgb(189, 39, 30);
+}
+.pending {
+  color: rgb(254, 197, 20);
+}
+.neverConnected {
+  color: rgb(100, 106, 119);
+}
+
+h3 {
+  font-family: Calibri;
+  font-weight: bold;
+}
+
+p {
+  font-family: Calibri;
+  color: gray;
+}
